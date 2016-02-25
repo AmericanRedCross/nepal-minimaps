@@ -38,23 +38,6 @@ var points = {
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#6c8eff",
-        "marker-size": "m",
-        "marker-symbol": "building",
-        "place": "Soaltee Crowne Plaza",
-        "image": "kathmandu.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.29210090637207,
-          27.70071345489316
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "marker-color": "#ed1b2e",
         "marker-size": "s",
         "marker-symbol": "circle",
@@ -79,7 +62,7 @@ var points = {
         "marker-size": "s",
         "marker-symbol": "circle",
         "place": "NRCS Nuwakot District Office",
-        "image": "kathmandu.jpg"
+        "image": "nuwakot-branch.jpg"
       },
       "geometry": {
         "type": "Point",

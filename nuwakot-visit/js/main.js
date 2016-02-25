@@ -60,11 +60,11 @@ info.onAdd = function (map) {
 };
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
-    infoHtml = '<h5>Nuwakot field visit</h5>';
+    infoHtml = '<h3 style="margin:12px;">Nuwakot field visit</h3>';
     if(props){
-      infoHtml += '<b>' + props.place + '</b><br><small><i>Click for picture<i></small>';
+      infoHtml += '<h4>' + props.place + '</b><br><small><i>Click for picture<i></small></h4>';
     } else {
-      infoHtml += 'Hover over a marker<br><small><i> <i></small>';
+      infoHtml += '<h4>&nbsp;<br><small><i>Hover over a marker</i><br></small></h4>';
     }
     this._div.innerHTML = infoHtml;
 };
